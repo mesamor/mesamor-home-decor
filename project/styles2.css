@@ -1,29 +1,15 @@
-/* PÁGINA SOBRE */
-#about-page {
-  background-color: #fff;
-  color: #000;
-  padding: 6rem 0;
-}
 
 /* Seção principal */
-.sobre-section {
+.sobre-section then {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   gap: 6rem;
-  width: 100%;
 }
 
 /* Bloco texto + imagem */
 .content_about {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 4rem;
-  
-  max-width: 1100px;
   margin: 1rem;
 }
 
@@ -60,8 +46,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
-  width: 100%;
+  gap: 3rem;
+  padding: 5rem;
 }
 
 
