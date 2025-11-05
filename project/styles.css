@@ -307,10 +307,10 @@ main > a:hover {
   border-radius: 4rem;
   color: var(--rose);
   font-size: 30px;
-  text-decoration: none;
   transition: all 0.4s ease; /* transição suave */
   box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.4);
   cursor: pointer;
+  text-decoration: none;
 }
 
 .button_special:hover {
@@ -407,4 +407,19 @@ main > a:hover {
   height: 36px;
 }
 
+.button_special {
+  text-decoration: none;
+}
 
+a {
+  text-decoration: none;
+  color: inherit; /* mantém a cor herdada do elemento pai */
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none; /* garante que o hover também não sublinhe */
+}
