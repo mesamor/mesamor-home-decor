@@ -1,0 +1,70 @@
+
+/* Seção principal */
+.sobre-section then {
+  display: flex;
+  gap: 6rem;
+}
+
+/* Bloco texto + imagem */
+.content_about {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin: 1rem;
+}
+
+/* Imagem lateral */
+.sobre-img img {
+  width: 400px;
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Texto */
+.sobre-texto {
+  max-width: 600px;
+  text-align: left;
+}
+
+.sobre-texto h1 {
+  color: #D0C167;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.sobre-texto p {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  color: #414040;
+}
+
+/* Foto da família */
+.family_photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 5rem;
+}
+
+
+.button_product {
+  width: 14rem;
+  padding: 0.6rem 1rem;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 1rem;
+  background-color: var(--rose);
+  color: white;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.button_product:hover {
+  background-color: white;
+  color: var(--rose);
+  transform: scale(1.05);
+}

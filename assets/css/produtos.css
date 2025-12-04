@@ -1,0 +1,70 @@
+.links{
+    color: var(--gold);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    margin: 1rem 0rem;
+    padding: 2rem;
+
+}
+
+.category{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-weight: bold;
+    color: var(--rose);
+}
+
+.sets_natal{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.slide{
+
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.imagens_natal{
+    display: flex;
+    gap: 2rem;
+}
+
+.descricao_natal{
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+}
+
+.botao_comprar{
+  width: 14rem;
+  padding: 0.6rem 1rem;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 1rem;
+  background-color: var(--rose);
+  color: white;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.botao_comprar:hover {
+background-color: white;
+color: var(--rose);
+transform: scale(1.05);
+}
+
+.text_product{
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 4rem;
+    color: var(--rose);
+}
