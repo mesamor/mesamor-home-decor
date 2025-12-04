@@ -7,18 +7,17 @@
   <title>Sobre — Mesamor Home Decor</title>
   <link rel="icon" type="image/x-icon" href="/mesamor/assets/img/logo.png" />
 
-  <!-- Importação CSS -->
-  <link rel="stylesheet" href="/mesamor/assets/css/styles.css" />
-
-  <link rel="stylesheet" href="/mesamor/assets/css/sobre.css">
+  <link rel="stylesheet" href="/assets/css/sobre.css" />
+  <link rel="stylesheet" href="/assets/css/sobre.css" />
 </head>
 
 <body>
-  <!-- HEADER (idêntico ao da home) -->
+
+  <!-- HEADER -->
   <header>
     <div class="branding">
-      <a href="/mesamor/index.html" aria-label="Página inicial — MESAMOR">
-        <img class="logo" src="/mesamor/assets/img/logo_mesamor.png" alt="Logotipo MESAMOR" />
+      <a href="/mesamor/pages/index.html" aria-label="Página inicial — MESAMOR">
+        <img class="logo" src="/mesamor/assets/img/logo.png" alt="Logotipo Mesamor" />
       </a>
       <div class="title">
         <h1>MESAMOR</h1>
@@ -28,79 +27,89 @@
 
     <nav aria-label="Navegação principal">
       <ul class="nav_header">
-        <li><a href="/mesamor/index.html">Home</a>
-        </li>
-        <li><a href="/mesamor/pages/about.html">Sobre</a>
-        </li>
-        <li><a href="/mesamor/pages/products.html">Produtos</a>
-        </li>
-        <li><a href="/mesamor/pages/contact.html">Contato</a>
-        </li>
+        <li><a href="/mesamor/pages/index.html">Home</a></li>
+        <li><a href="/mesamor/pages/about.html" class="active">Sobre</a></li>
+        <li><a href="/mesamor/pages/products.html">Produtos</a></li>
+        <li><a href="/mesamor/pages/contact.html">Contato</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- CONTEÚDO PRINCIPAL DA PÁGINA SOBRE -->
-    <section class="sobre-section">
-      <div class="content_about">
-        
-        <div class="sobre-img">
+  <!-- CONTEÚDO PRINCIPAL -->
+  <section class="sobre-section">
+
+    <div class="content_about">
+
+      <div class="sobre-img">
         <img src="/mesamor/assets/img/photo2.png" alt="Mesa decorada Mesamor" />
       </div>
+
       <div class="sobre-texto">
-        <h1>SOBRE MIM!</h1>
-        <br>
+        <h1>SOBRE MIM</h1>
+
         <p>
-          Me chamo Paula, sou casada há 19 anos, mãe da Giovanna, 
-          do Lorenzo e da nossa mascote Bolota.
-          Desde criança sempre amei preparar mesas,
-          criando momentos especiais de afeto e acolhimento sem 
-          imaginar que esse universo se chamava <strong>“mesa posta”.</strong>
+          Me chamo Paula, sou casada há 19 anos, mãe da Giovanna, do Lorenzo e da nossa mascote Bolota.
+          Desde criança sempre amei preparar mesas, criando momentos especiais de afeto e acolhimento,
+          sem imaginar que esse universo se chamava <strong>“mesa posta”.</strong>
+        </p>
+
+        <p>
           Sou formada em Publicidade e Propaganda e atuei por 10 anos na indústria farmacêutica,
-          até pausar a carreira em 2008 para me dedicar à maternidade.
-          Nesse período, também estudei design de interiores e fotografia,
-          sempre com o apoio do meu marido.
-          No início da pandemia, incentivada por uma amiga, 
-          decidi compartilhar essa paixão e nasceu a <strong>Mesamor</strong> — um projeto que une amor,
-          beleza e propósito. Para mim, estar à mesa é muito mais do que estética é:
-          <strong>resgatar valores, fortalecer laços e transformar encontros em memórias inesquecíveis.</strong>
+          até pausar a carreira em 2008 para me dedicar à maternidade. Nesse período,
+          também estudei design de interiores e fotografia, sempre com o apoio do meu marido.
+        </p>
+
+        <p>
+          No início da pandemia, incentivada por uma amiga, decidi compartilhar essa paixão e nasceu
+          a <strong>Mesamor</strong> — um projeto que une amor, beleza e propósito.
+        </p>
+
+        <p>
+          Para mim, estar à mesa é muito mais do que estética:
+          <strong>é resgatar valores, fortalecer laços e transformar encontros em memórias inesquecíveis.</strong>
         </p>
       </div>
 
-      </div>
-      
+    </div>
 
-      <div class="family_photo">
-        <img src="/mesamor/assets/img/family_photo.png" alt="Foto da família" />
+    <div class="family_photo">
+      <img src="/mesamor/assets/img/family_photo.png" alt="Foto da família Mesamor" />
 
-        <a href="/mesamor/pages/products.html"><button class="button_product">Veja meus Produtos</button></a>
-      </div>
-    </section>
+      <a href="/mesamor/pages/products.html">
+        <button class="button_product">Veja meus Produtos</button>
+      </a>
+    </div>
 
-  <!-- FOOTER (idêntico ao da home) -->
-   <section class="footer">
+  </section>
+
+  <!-- FOOTER -->
+  <section class="footer">
     <footer id="footer">
       <div class="footer-content">
+
         <div class="direito">
-        <p>&copy; 2024 Mesamor. Todos os direitos reservados.</p>
-      </div>
+          <p>&copy; 2024 Mesamor. Todos os direitos reservados.</p>
+        </div>
 
-      <div class="contact">
-        <h2>Entre em contato:</h2>
-      <p>Email: contato@mesamor.com</p>
-      <p>Telefone: (11) 1234-5678</p>
+        <div class="contact">
+          <h2>Entre em contato:</h2>
+          <p>Email: contato@mesamor.com</p>
+          <p>Telefone: (11) 1234-5678</p>
+        </div>
 
-      </div>
+        <div class="social">
+          <a href="https://www.instagram.com/mesamor_home_decor" target="_blank">
+            <img class="icon_instagram" src="/mesamor/assets/img/instagram.png" alt="Instagram" />
+          </a>
 
-      <div class="social">
-          <img class="icon_instagram" src="/mesamor/assets/img/instagram.png" alt="Ícone do Instagram" />
-          <a href="https://www.instagram.com/mesamor_home_decor"></a>
-        
-          <img class="icon_whatsapp" src="/mesamor/assets/img/whatsapp.png" alt="Ícone do WhatsApp" />
-          <a href="https://wa.me/5511"></a>
+          <a href="https://wa.me/5511" target="_blank">
+            <img class="icon_whatsapp" src="/mesamor/assets/img/whatsapp.png" alt="WhatsApp" />
+          </a>
+        </div>
 
       </div>
     </footer>
   </section>
+
 </body>
 </html>
