@@ -1,0 +1,103 @@
+header {
+  /* tornando os filhos de header flexíveis (um ao lado do outro) */
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  /* altura do header */
+  height: 5.6rem;
+
+  /* espaçamento interno do header */
+  padding: 0 2.25rem;
+
+  /* deixar header fixo no topo */
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  /* prioridade sobre qualquer outro elemento */
+  z-index: 999;
+
+  border-bottom: 1px var(--border-white) solid;
+  background: var(--rose)
+}
+
+header > .branding {
+  display: flex;
+
+  align-items: center;
+  gap: 1rem; /* espaçamento interno entre logo e título */
+
+  /* altura: tamanho da logotipo */
+  img {
+    height: 3.25rem;
+  }
+
+  h1 {
+    cursor: default;
+    font-weight: 100;
+  }
+}
+
+header > nav {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 3rem; /* espaçamento entre links e button */
+  padding: 0px 1rem; /* espaço interno na direita e esquerda para todos os elementos */
+
+  ul {
+    display: flex;
+
+    gap: 3rem;
+    padding: 0.52rem;
+
+    /* remover bolinha dos links */
+    list-style: none;
+
+    /* estilizando título links */
+    li > a {
+      box-sizing: border-box;
+      padding: 2px 0;
+      font-weight: 200;
+      text-decoration: none;
+
+      transition: all 0.8 ease;
+      color: var(--white);
+    }
+
+    /* estilizando quando mouse estive em cima */
+    li > a:hover {
+      /* text-decoration: underline; */
+      color: rgb(187, 187, 187);
+      border-top: 1px solid rgb(187, 187, 187);
+      border-bottom: 1px solid rgb(187, 187, 187);
+      display: inline-block;
+    }
+  }
+  
+
+  button {
+    padding: 1rem;
+
+    font-size: 1.125rem;
+    border-radius: 8px;
+
+    transition: 1s;
+
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid var(--border-white);
+  }
+
+  button:hover {
+    cursor: pointer; /* mudar cursor do mouse quando estiver em cima */
+
+    background-color: white;
+    color: black;
+  }
+}

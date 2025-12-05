@@ -1,0 +1,64 @@
+
+#footer {
+  background-color: var(--rose);
+  display: flex;
+  height: 7rem;
+  border-top: 1px solid var(--border-white);
+}
+
+#footer .direito {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  width: 20rem;
+}
+
+#footer p {
+  font-size: 0.875rem;
+  font-weight: 200;
+  color: var(--white);
+}
+
+.footer .footer-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;;
+}
+
+#footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon_instagram, .icon_whatsapp {
+  width: 36px;
+  height: 36px;
+}
+
+.button_special {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* mantém a cor herdada do elemento pai */
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none; /* garante que o hover também não sublinhe */
+}

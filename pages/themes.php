@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Temáticos — Mesamor Home Decor</title>
-  <link rel="icon" type="image/x-icon" href="../assets/img/logo_mesamor.png">
+  <link rel="icon" type="image/x-icon" href="../assets/img/logo.png">
 
   <!-- CSS -->
   <link rel="stylesheet" href="../assets/css/styles.css" />
@@ -14,33 +14,15 @@
 
 <body>
 
-  <!-- HEADER -->
-  <header>
-    <div class="branding">
-      <a href="../index.html">
-        <img class="logo" src="../assets/img/logo.png" alt="Logo Mesamor" />
-      </a>
-      <div class="title">
-        <h1>MESAMOR</h1>
-        <p>home-decor</p>
-      </div>
-    </div>
-
-    <nav>
-      <ul class="nav_header">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="about.html">Sobre</a></li>
-        <li><a href="products.html">Produtos</a></li>
-        <li><a href="contact.html">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
+  <?php
+    include(__DIR__ . '/../components/header/header.php');
+  ?>
 
   <!-- LINKS SUPERIORES -->
   <div class="links">
-    <h3><a href="products.html">Conjuntos</a></h3>
-    <h3><a href="dates.html">Datas Comemorativas</a></h3>
-    <h3><a href="themes.html" class="active">Temáticos</a></h3>
+    <h3><a href="../pages/products.php">Conjuntos</a></h3>
+    <h3><a href="../pages/dates.php">Datas Comemorativas</a></h3>
+    <h3><a href="../pages/themes.php" class="active">Temáticos</a></h3>
   </div>
 
   <h1 class="category">TEMÁTICOS</h1>
@@ -57,7 +39,7 @@
 
   <div class="descricao_natal">
     <h2 class="text_product">Conjunto Natal de Amor</h2>
-    <a href="contact.html">
+    <a href="contact.php">
       <button class="botao_comprar">Faça seu Orçamento</button>
     </a>
   </div>
@@ -74,39 +56,17 @@
 
   <div class="descricao_natal">
     <h2 class="text_product">Conjunto Natal de Amor</h2>
-    <a href="contact.html">
+    <a href="contact.php">
       <button class="botao_comprar">Faça seu Orçamento</button>
     </a>
   </div>
+</section>
 
   <!-- FOOTER -->
-  <section class="footer">
-    <footer id="footer">
-      <div class="footer-content">
+<?php
+include(__DIR__ . '/../components/footer/footer.php');
+?>
 
-        <div class="direito">
-          <p>&copy; 2024 Mesamor. Todos os direitos reservados.</p>
-        </div>
-
-        <div class="contact">
-          <h2>Entre em contato:</h2>
-          <p>Email: contato@mesamor.com</p>
-          <p>Telefone: (11) 1234-5678</p>
-        </div>
-
-        <div class="social">
-          <a href="https://www.instagram.com/mesamor_home_decor">
-            <img class="icon_instagram" src="../assets/img/instagram.png" alt="Ícone do Instagram" />
-          </a>
-
-          <a href="https://wa.me/5511">
-            <img class="icon_whatsapp" src="../assets/img/whatsapp.png" alt="Ícone do WhatsApp" />
-          </a>
-        </div>
-
-      </div>
-    </footer>
-  </section>
 
 </body>
 </html>
